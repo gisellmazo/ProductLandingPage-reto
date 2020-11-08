@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="./imagenes/logo.jpg" alt="logo my shop vip">
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#beneficios">Beneficios</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#productosyprecio">Productos y Precio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sec-info">
+        <h1>My Shop Vip</h1>
+        <p>Vendemos Maquillaje y Variedades de calidad</p>
+    </section>
+
+    
+
+    <div class="container">
+        <section id="beneficios">
+            <div class="grid">
+                <div class="icon">
+                    <img class="img-icon" src="./imagenes/calidad.png" alt="icon de buena calidad">
+                </div>
+                <div class="infobeneficios">
+                    <h2>Excelentes Calidad</h2>
+                    <p>Buena calidad y productos originales</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <img class="img-icon" src="./imagenes/precios.png" alt="icon de buenos precios">
+                </div>
+                <div class="infobeneficios">
+                    <h2>Excelentes Precios</h2>
+                    <p>Precios accesibles y super promociones</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <img class="img-icon" src="./imagenes/domicilios.png" alt="icon de docicilios">
+                </div>
+                <div class="infobeneficios">
+                    <h2>Domicilios a todo el país</h2>
+                    <p>Compra desde cualquier parte del pais</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="secvideo">
+            <iframe id="video" src="https://www.youtube-nocookie.com/embed/1-Oi1WbMsFA?rel=0&amp;controls=0&amp;showinfo=0" height="315" allowfullscreen></iframe>
+        </section>
+
+        <section id="productosyprecio">
+            <div class="producto" id="paleta1">
+                <div class="level">Tease Me</div>
+                <img class="img-producto" src="./imagenes/paleta1.jpg" alt="Imagen paleta Tease Me">
+                <h3>$40.000</h3>
+                <p>Paleta de Sombras de Beayty Creations, colores metalicos de alta pigmentación</p>
+                <button class="btnproducto">Comprar</button>
+            </div>
+
+            <div class="producto" id="paleta2">
+                <div class="level">Soft Nude</div>
+                <img class="img-producto" src="./imagenes/paleta2.jpg" alt="Imagen paleta Soft Nude">
+                <h3>$27.000</h3>
+                <p>Paleta de Sombras Soft Nude de Ruby Rose, bellos tonos glitters y shimmers</p>
+                <button class="btnproducto">Comprar</button>
+            </div>
+
+            <div class="producto" id="paleta3">
+                <div class="level">Neon Light</div>
+                <img class="img-producto" src="./imagenes/paleta3.jpg" alt="Imagen paleta Neon Light">
+                <h3>$32.000</h3>
+                <p>Paleta de Sombras de OG, incluye glitters de alta pigmentación y fijación excelente calidad</p>
+                <button class="btnproducto">Comprar</button>
+            </div>
+        </section>
+
+        <section id="sec-form">
+            <h1>Para obtener mas info...</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" name="email" placeholder="Introduce tu correo..." required>
+                <input id="submit"  type="submit" value="Recibe Información" class="btninfo">
+            </form>
+        </section>
+
+
+        <footer>
+            <p>Terminos y Condiciones</p>
+            <span>Copyright 2020, MyShopVip</span>
+        </footer>
+    </div>
+</body>
+</html>
